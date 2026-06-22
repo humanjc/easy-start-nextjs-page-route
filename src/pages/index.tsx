@@ -9,7 +9,7 @@ export default function Home() {
       <h1>Index page.</h1>
       <p>This is sample page.</p>
       <div>
-        <Link href="/other">Go "Other".</Link>
+        <Link href="/other">Go &quot;Other&quot;.</Link>
       </div>
     </main>
   );
