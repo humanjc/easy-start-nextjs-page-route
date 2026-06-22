@@ -1,21 +1,8 @@
-import { ReactNode } from "react";
-
-type LayoutData = {
-  title?: string;
-};
-
-type LayoutProps = {
-  children: ReactNode;
-  data?: LayoutData;
-};
-
-export default function Layout({ children, data }: LayoutProps) {
+export default function Home() {
   return (
-    <>
-      <h1 className="header">{data?.title ?? "Next.js"}</h1>
-      <main>{children}</main>
-      <hr className="footer" />
-      <p className="footer">copyright 2023 SYODA-Tuyano.</p>
-    </>
+    <main>
+      <h1 className="header">Static page</h1>
+      <p>정적인 페이지입니다. 빌드 시에 렌더링됩니다.</p>
+    </main>
   );
 }
