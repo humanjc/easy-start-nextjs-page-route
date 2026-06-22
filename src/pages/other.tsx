@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main>
-      <h1>Index page.</h1>
-      <p>This is sample page.</p>
+      <h1>Other page.</h1>
+      <p>이것은 다른 페이지입니다.</p>
       <div>
-        <Link href="/other">Go "Other".</Link>
+        <Link href="/">Go Back!!</Link>
       </div>
     </main>
   );
